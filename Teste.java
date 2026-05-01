@@ -12,7 +12,7 @@ public class Teste {
 
         pedido.adicionarItem(item1);
         pedido.adicionarItem(item2);
-
+        
         // Exibe o pedido (sem status)
         pedido.exibirPedido();
 
