@@ -22,7 +22,7 @@ public class Teste {
         pedido.alterarStatus(Pedido.Status.EM_PREPARO);
         pedido.alterarStatus(Pedido.Status.FINALIZADO);
 
-        // ✅ Agora exibe apenas uma vez
+        // Agora exibe apenas uma vez
         System.out.println("\nStatus final: " + pedido.getStatus());
     }
 }

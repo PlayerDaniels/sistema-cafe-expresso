@@ -14,7 +14,7 @@ public class Pedido {
     private List<ItemPedido> itens;
     private Status status;
 
-    // ✅ Sempre começa como PENDENTE
+    // Sempre começa como PENDENTE
     public Pedido() {
         this.itens = new ArrayList<>();
         this.status = Status.PENDENTE;
@@ -66,7 +66,7 @@ public class Pedido {
         return itens;
     }
 
-    // ✅ Agora exibe só os itens e o total (sem status)
+    // Agora exibe só os itens e o total (sem status)
     public void exibirPedido() {
         System.out.println("=== PEDIDO ===");
         for (ItemPedido item : itens) {
